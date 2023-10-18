@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    a{
+        margin-right: 15px;
+        color: rgb(14, 149, 187);
+    }
+</style>
+<body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+        <nav>
+          <a href="./homePage.html">Home</a>
+          <a href="./addReview.html">Add Review</a>
+          <a href="./aboutPage.html">About</a>
+        </nav>
+      </header>
+      <main>
+        <h2>Add Review</h2>
+       <label for="name">Name?</label>
+       <input type="text" name="name" id="name"> <br><br>
+       <label for="restaurant">Restaurant?</label>
+       <select name="res" id="restaurant">
+    <option value="something">Choose One...</option>    
+    </select> <br><br>
+    <label for="date">Date of Visit?</label>
+    <input type="date" name="date" id="date"> <br><br>
+    <label for="rating">Rating?</label>
+    <input type="number" name="rating" id="rating"> <br> <br>
+    <label for="details">Details?</label>
+    <textarea name="details" id="details" cols="30" rows="10"></textarea> <br><br>
+    <input type="submit" value="Submit">
+      </main>
+      <footer>
+        <p>&copy; 2023 Restaurant Reviews</p>
+      </footer>
+</body>
+</html>

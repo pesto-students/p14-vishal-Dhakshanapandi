@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>Happy Birthday Message Creator</h1></header>
+    <main>
+      <form action="">
+        <label for="date">Date</label>
+        <input type="date" id="date" /> <br /><br />
+        <label for="color">Message Color?</label>
+        <input type="color" name="color" id="color" /> <br /><br />
+        <label for="message">Message Blinks?</label>
+        <input
+          type="number"
+          name="message"
+          id="message"
+          minlength="0"
+          maxlength="10"
+        />
+        <br /><br />
+        <label for="musicvolume">Music volume</label>
+        <input type="range" name="musicvolume" id="musicvolume" /> <br /><br />
+        <button>Send Birthday Message</button>
+      </form>
+    </main>
+  </body>
+</html>
