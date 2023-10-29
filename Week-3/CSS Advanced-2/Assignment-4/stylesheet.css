@@ -1,0 +1,51 @@
+.outer{
+    width: 600px;
+    height: 280px;    
+    border: 2px solid blue;
+    background-color:  #F0F0F0;
+    padding: 5px;
+}
+
+.title{
+    font-size: 16pt;
+    font: Arial italic;
+    color: blue;
+    font-weight: bolder;
+    margin: 5px ;
+
+}
+
+.child1{
+    background-color: yellow;
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin: 5px ;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.child2{
+    margin-top:20px;
+    
+}
+
+.child3{
+    background-color: orange;
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    width: 200px;
+    padding: 10px;
+   
+}
+
+.child4{
+   background-color: red;
+   color: white;
+   width: 200px;
+   padding: 10px;
+   float: right;
+   margin-right: 40px;
+   margin-top: 40px;
+}
