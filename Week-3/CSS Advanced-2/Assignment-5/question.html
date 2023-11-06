@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>Question and Answer</title>
+      <style>
+   /* Keyframes for moveFraction animation */
+@keyframes moveFraction {
+  0% {
+    color: yellow;
+    transform: translate(-355px, 60px);
+  }
+  50% {
+    transform: translate(0px, 60px);
+  }
+  100% {
+    color: red;
+    transform: translate(0px, 0px);
+  }
+}
+
+/* Style for #answer with moveFraction animation */
+#answer {
+  animation-name: moveFraction;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+/* Transition for #question */
+#question {
+  transition: transform 0.6s ease-in-out;
+  cursor: pointer;
+
+}
+
+/* Hover style for #question */
+#question:hover {
+  transform: scale(0.9);
+  font-size: smaller;
+}
+
+    
+      </style>
+   </head>
+   <body>
+      <span id="question">Question: &frac14; + &frac12; =</span>  
+      <span id="answer">&frac34;</span>   
+   </body>
+</html>
